@@ -25,7 +25,7 @@ Getting Started:
 
 Clone the Repository:
 Bash
-git clone https://github.com/your-username/html-tutorial.git
+https://github.com/umarlamiya/HTML-TUTORIAL.git
 Use code with caution.
 
 Open the HTML Files: Use a text editor or code editor to open the HTML files in the src directory.
