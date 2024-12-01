@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+    <title>
+        
+        My first website
+
+    </title>
+ </head>
+  <body>
+    
+    <form action="action_page.php" method="get">
+        <div>
+           <label for="fname">First name:</label>
+           <input type="text" id="fname" name="fname" placeholder="Tony" required>
+        </div>
+        
+        <br>
+
+        <div>
+           <label for="lname">Last name:</label>
+           <input type="text" id="lname" name="lname" placeholder="Stark" required>
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="Pass">Password:</label>
+            <input type="password" id="Pass" name="Pass" maxlength="12" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="Email">Email:</label>
+            <input type="Email" id="Email" name="Email" placeholder="spantsbook@gmail.com" required>
+        </div>
+
+        <br>
+
+        <div></div>
+            <label for="Phone">Phone #:</label>
+            <input type="tel" id="Phone" name="Phone" placeholder="(123)-111-2222" required>
+        </div>
+
+        <br>
+          
+
+        <br>
+
+        <div>
+            <label for="bdate">Birthdate:</label>
+            <input type="date" id="bdate" name="bdate"required>
+        </div>
+
+        <br>
+
+
+        <div>
+            <label for="title">title</label>
+
+            <label for="Mr.">Mr.</label>
+             <input type="radio" id="Mr." name="title" value="Mr.">
+
+             <label for="Mrs.">Mrs.</label>
+             <input type="radio" id="Mrs." name="title" value="Mrs.">
+
+             <label for="PhD.">PhD.</label>
+             <input type="radio" id="PhD." name="title" value="PhD.">
+
+             
+        </div>
+
+        <br>
+
+        <div>
+
+         <label for="payment">payment</label>
+         <select name="payment" id="payment">
+            <option value="visa">visa</option>
+            <option value="mastercard">mastercard</option>
+            <option value="giftcard">giftcard</option>
+            <option value="bitcoin">bitcoin</option>
+            <option value="USDT(Tether)">USDT(Tether)</option>
+         </select>
+
+        </div>
+
+
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+  </body>
+</html>
